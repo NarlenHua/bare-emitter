@@ -34,7 +34,7 @@ yarn add bare-emitter
 ### 基本用法
 
 ```typescript
-import { BareEmitter } from 'bare-emitter';
+import BareEmitter from 'bare-emitter';
 
 // 创建事件发射器实例
 const emitter = new BareEmitter();

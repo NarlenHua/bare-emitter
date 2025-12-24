@@ -2,7 +2,7 @@
  * BareEmitter 类提供事件驱动的编程模式，允许对象间通过事件进行通信
  * 支持事件监听、取消监听、一次性监听和事件触发功能
  */
-export declare class BareEmitter {
+declare class BareEmitter {
     author: string;
     version: string;
     description: string;
@@ -65,6 +65,7 @@ export declare class BareEmitter {
      */
     emit(eventName: string, ...args: any[]): boolean;
 }
+export default BareEmitter;
 
 /**
  * 事件监听器类型定义，表示一个可以接收任意参数的函数

@@ -1,4 +1,6 @@
 /**
  * 事件触发器类
  */
-export * from './BareEmitter';
+import { BareEmitter } from './BareEmitter';
+
+export default BareEmitter;
