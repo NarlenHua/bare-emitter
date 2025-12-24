@@ -1,0 +1,35 @@
+{
+  "name": "bare-emitter",
+  "private": false,
+  "version": "0.0.0",
+  "changelog": "创建了项目",
+  "author": "Narlen",
+  "description": "轻量简单的事件触发器",
+  "keywords": [
+    "emitter",
+    "bare-emitter"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/NarlenHua/bare-emitter.git"
+  },
+  "license": "MIT",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview"
+  },
+  "devDependencies": {
+    "typescript": "~5.9.3",
+    "vite": "^7.2.4"
+  },
+  "main": "dist/bare-emitter.life.js",
+  "module": "dist/bare-emitter.es.js",
+  "typings": "dist/index.d.ts",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist",
+    "src"
+  ]
+}
