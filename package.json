@@ -1,8 +1,8 @@
 {
   "name": "bare-emitter",
   "private": false,
-  "version": "0.0.0",
-  "changelog": "创建了项目",
+  "version": "1.0.0",
+  "changelog": "推出正式版本 1.0.0",
   "author": "Narlen",
   "description": "轻量简单的事件触发器",
   "keywords": [
