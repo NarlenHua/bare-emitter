@@ -19,7 +19,7 @@ export default defineConfig({
 
       entry: "./src/main.ts",
       // name: `${info.name.replace('-', '')}`,
-      name: 'MiniEmitter',
+      name: 'BareEmitter',
       // formats: ['es', 'cjs', 'umd', 'iife'],
       formats: ["es", "iife"],
       // formats: ["iife"],
